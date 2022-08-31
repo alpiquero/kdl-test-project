@@ -1,14 +1,14 @@
 kind: secret
 name: minio-key-id
 get:
-  path: mlflow-server-secret
+  path: kdl-test-project-mlflow-secret
   name: AWS_ACCESS_KEY_ID
 
 ---
 kind: secret
 name: minio-secret
 get:
-  path: mlflow-server-secret
+  path: kdl-test-project-mlflow-secret
   name: AWS_SECRET_ACCESS_KEY
 
 ---
